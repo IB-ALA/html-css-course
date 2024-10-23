@@ -1,0 +1,200 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> Grid Practice </title>
+  </head>
+
+  <body style="padding-bottom: 200px;">
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px;
+      ">
+      <div style="background-color: lightblue;">div 1</div>
+      <div style="background-color: lightpink;">div 2 <p>text</p></div>
+    </div>
+
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 100px 200px;
+      ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">100px <p>text</p></div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">100px</div>
+    </div>
+
+
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">1fr</div>
+    </div>
+
+
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 1fr 2fr;
+      ">
+      <div style="background-color: lightblue;">100px</div>
+      <div style="background-color: lightpink;">1fr</div>
+      <div style="background-color: lightblue;">2fr</div>
+    </div>
+
+
+
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 30px;
+      ">
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+      <div style="background-color: lightpink; height: 200px;">1fr</div>
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+      <div style="background-color: lightpink; height: 200px;">1fr</div>
+      <div style="background-color: lightblue; height: 200px;">1fr</div>
+      <div style="background-color: lightpink; height: 200px;">1fr</div>
+    </div>
+
+
+
+
+
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+      ">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+
+    <div style="
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+      ">
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+
+
+
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 180px 180px 180px;
+      column-gap: 15px;
+      padding: 15px;
+      ">
+      <div style="box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.15);">
+	<div>
+	  <img src="thumbnails/CTV.png" style="width: 100%; height: 200;">
+	</div>
+	<div style=" heigt: 80px; padding: 7px; display: grid; grid-template-columns: 1fr;">
+	  <div style=" margin-bottom: 3px;"> 
+	    <p style="font-family: arial; font-weight: bold; margin-top: 0; margin-bottom: 0;"> 
+	      Oliver 
+	    </p>
+          </div>
+	  <div style="display: grid; grid-template-columns: 30px 1fr" height: 30px;> 
+	    <div>
+	      <img src="Channelprofilepics/firstpic.png" style=" width: 100%; border-radius:15px;">
+	    </div>
+	    <div>
+	      <p style="margin-top: 7px; margin-bottom: 0;  margin-left: 5px; color: rgb(96, 96, 96); font-family: arial; font-size: 14px;"> 
+	        2 mutual friends
+	      </p>
+	    </div>
+          </div>
+          <div> 
+	    <button style="margin-top: 7px; background-color: rgb(2, 158, 255); color: white; font-family: arial; font-size: 14px; border: none; border-radius: 3px; padding-top: 8px; padding-bottom: 8px; padding-left: 18px; padding-right: 18px; cursor: pointer;"> 
+	      Add Friend 
+	    </button>
+          </div>
+	</div>
+      </div>
+
+
+      <div style="box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.15);">
+	<div>
+	  <img src="thumbnails/MFF.png" style="width: 100%; height: 200;">
+	</div>
+	<div style=" heigt: 80px; padding: 7px; display: grid; grid-template-columns: 1fr;">
+	  <div style=" margin-bottom: 3px;"> 
+	    <p style="font-family: arial; font-weight: bold; margin-top: 0; margin-bottom: 0;"> 
+	      Mimi 
+	    </p>
+          </div>
+	  <div style="display: grid; grid-template-columns: 30px 1fr" height: 30px;> 
+	    <div>
+	      <img src="Channelprofilepics/secondpic.png" style=" width: 100%; border-radius:15px;">
+	    </div>
+	    <div>
+	      <p style="margin-top: 7px; margin-bottom: 0;  margin-left: 5px; color: rgb(96, 96, 96); font-family: arial; font-size: 14px;"> 
+	        3 mutual friends
+	      </p>
+	    </div>
+          </div>
+          <div> 
+	    <button style="margin-top: 7px; background-color: rgb(2, 158, 255); color: white; font-family: arial; font-size: 14px; border: none; border-radius: 3px; padding-top: 8px; padding-bottom: 8px; padding-left: 18px; padding-right: 18px; cursor: pointer;"> 
+	      Add Friend 
+	    </button>
+          </div>
+	</div>
+      </div>
+
+
+      <div style="box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.15);">
+	<div>
+	  <img src="thumbnails/QOTS.png" style="width: 100%; height: 200;">
+	</div>
+	<div style=" heigt: 80px; padding: 7px; display: grid; grid-template-columns: 1fr;">
+	  <div style=" margin-bottom: 3px;"> 
+	    <p style="font-family: arial; font-weight: bold; margin-top: 0; margin-bottom: 0;"> 
+	      Rex 
+	    </p>
+          </div>
+	  <div style="display: grid; grid-template-columns: 30px 1fr" height: 30px;> 
+	    <div>
+	      <img src="Channelprofilepics/firstpic.png" style=" width: 100%; border-radius:15px;">
+	    </div>
+	    <div>
+	      <p style="margin-top: 7px; margin-bottom: 0;  margin-left: 5px; color: rgb(96, 96, 96); font-family: arial; font-size: 14px;"> 
+	        4 mutual friends
+	      </p>
+	    </div>
+          </div>
+          <div> 
+	    <button style="margin-top: 7px; background-color: rgb(2, 158, 255); color: white; font-family: arial; font-size: 14px; border: none; border-radius: 3px; padding-top: 8px; padding-bottom: 8px; padding-left: 18px; padding-right: 18px; cursor: pointer;"> 
+	      Add Friend 
+	    </button>
+          </div>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,119 @@
+<!DOCTYPE>
+<html>
+  <head> 
+    <title> NESTED-FLEXBOX 2 </title>
+
+<style>
+  body {
+    font-family: Arial;
+  }
+  .post {
+    width: 423px;
+    display: flex;
+    align-items: top;
+  }
+  .profile-picture,
+  .text {
+    display: inline-block;
+  }
+  .text {
+    margin-top: 6px;
+    flex: 1;
+  }
+  .profile-picture {
+    width: 70px;
+  }
+  .image {
+    width:60px;
+    border-radius: 30px;
+  }
+  .username,
+  .handle {
+    display: inline-block;
+  }
+  .user,
+  .message,
+  .link-button {
+    display: block;
+  }
+  .user {
+    margin-bottom: 8px;
+  }
+  .username {
+    font-weight: bold;
+  }
+  .handle {
+    color: rgb(100, 100, 100);
+  }
+  .link-session {
+    width: 348;
+    display: flex;
+    margin-top: 15px;
+    align-items: top;
+  }
+  .link {
+    width: 344px;
+    height: 95px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .blank {
+    width: 95px;
+    height: 95px;
+    border-radius: 20px 0 0 20px;
+    background-color: rgb(210, 210, 210);
+  }
+  .link-side {
+    font-size: 16px;
+    margin-left: 15px;
+    line-height: 22px;
+    displa: flex;
+  }
+  .link-text {
+    width: 220px;
+  }
+  .link-com {
+    color: rgb(100, 100, 100);
+  }
+</style>
+  </head>
+
+  <body> 
+    <div class="view"> 
+      <div class="post">
+        <div class="profile-picture"> 
+          <img class="image" src="channelprofilepics/my-channel.jpeg">
+        </div>
+        <div class="text"> 
+          <div class="user">
+            <div class="username"> 
+              supersimple.dev 
+            </div> 
+            <div class="handle"> 
+              @SuperSimpleDev
+            </div>
+          </div>
+          <div class="message"> 
+            What is backend web development? A complete overview. New video is up!
+	  </div>
+	  <div class="link-session">
+	    <div class="link">
+	      <div class="blank">   </div>
+	      <div class="link-side"> 
+	        <div class="link-com"> youtube.com </div>
+	        <div class="link-text"> 
+	          Backend web development - a complete overview (2021) 
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

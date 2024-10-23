@@ -1,0 +1,150 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> NESTED FLEXBOX </title>
+
+    <style>
+      body {
+	font-family: Arial;
+      }
+      .display {
+	width: 321px;
+	border-radius: 5px;
+	padding-left: 12px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.08);
+      }
+      .inbox {
+	font-size: 12px;
+	color: rgb(96, 96, 96);
+	margin-bottom: 18px;
+      }
+      .mail {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+      }
+      .profile-picture,
+      .details {
+	display: inline-block;
+      }
+      .profile-picture {
+	width: 54px;
+      }
+      .picture {
+	width: 54px;
+	border-radius: 27px;
+      }
+      .details {
+	height: 65px;
+	margin-left: 8px;
+	flex: 1;
+      }
+      .top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+      }
+      .sender {
+	flex: 1;
+	font-size: 14px;
+	font-weight: bold;
+      }
+      .time {
+	width: 54px;
+	font-size: 12px;
+	color: rgb(96, 96, 96);
+	display: flex;
+	justify-content: end;
+      }
+      .subject {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 8px;
+      }
+      .message {
+	font-size: 12px;
+	color: rgb(96, 96, 96);
+	margin-top: 9px;
+      }
+    </style>
+  </head>
+
+  <body> 
+    <div class="display"> 
+      <div class="inbox"> 
+	ALL INBOXES 
+      </div>
+      <div class="mail"> 
+	<div class="profile-picture">
+	  <img class="picture" src="channelprofilepics/my-channel.jpeg">
+	</div>
+	<div class="details">  
+	  <div class="top"> 
+	    <div class="sender">
+	      Chewy Promotions
+	    </div>
+	    <div class="time">
+	      4:58 PM
+	    </div>
+	  </div> 
+	  <div class="subject">
+	    Biggest sales of the year!
+	  </div>
+	  <div class="message">
+	    Hey there! We're writing to tell you about our...
+	  </div>
+	</div>
+      </div>
+
+
+      <div class="mail"> 
+	<div class="profile-picture">
+	  <img class="picture" src="channelprofilepics/channel-7.jpeg">
+	</div>
+	<div class="details">  
+	  <div class="top"> 
+	    <div class="sender">
+	      Best Buy
+	    </div>
+	    <div class="time">
+	      12:32 PM
+	    </div>
+	  </div> 
+	  <div class="subject">
+	    Your Best Buy eReceipt
+	  </div>
+	  <div class="message">
+	    Thank you for shopping at Best Buy, here is...
+	  </div>
+	</div>
+      </div>
+
+
+      <div class="mail"> 
+	<div class="profile-picture">
+	  <img class="picture" src="channelprofilepics/channel-2.jpeg">
+	</div>
+	<div class="details">  
+	  <div class="top"> 
+	    <div class="sender">
+	      Netflix
+	    </div>
+	    <div class="time">
+	      9:00 AM
+	    </div>
+	  </div> 
+	  <div class="subject">
+	    Here's what's coming soon on Netflix
+	  </div>
+	  <div class="message">
+	    Brand new movies and shows, old favorites...
+	  </div>
+	</div>
+      </div>
+
+    </div> 
+  </body>
+</html>

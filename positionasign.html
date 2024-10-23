@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head> <title> Position Assignment </title> 
+  </head>
+  <style>
+    p {
+      margin: 0;
+      font-family: arial;
+    }
+    .sidebar {
+      background-color: green;
+      color: white;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100px;
+    }
+    .background-overlay {
+      background-color: rgba(0, 0, 0, 0.4);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal {
+      background-color: white;
+      width: 65%;
+      padding: 20px;
+      line-height: 25px;
+      border-radius: 12px;
+    }
+    .modal-text {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .sub-text {
+      margin: 0;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .close-button {
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <div class="sidebar"> right sidebar </div>
+    <div class="background-overlay">  
+      <div class="modal">
+	<p class="modal-text"> Modal Title </p>
+	<p class="sub-text"> This is a modal </p>
+	<button class="close-button"> Close </button>
+      </div>
+    </div>
+  </body>
+</html>
